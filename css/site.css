@@ -5,8 +5,21 @@
     --white-color: #e7f7f7;
 }
 
+.odd{
+    font-weight: 100;
+}
+.even{
+    font-weight: bold;
+}
+
+.logoFont {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 body{
     color: var(--dark-color);
+    font-weight: 700;
+    font-style: italic;
 }
 
 nav{
@@ -66,6 +79,19 @@ main>.container {
     padding: 60px 15px 0;
 }
 
+.goBtn{
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.goBtn:hover {
+    color: var(--white-color);
+    border-color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+table, tbody{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .sticky-nav {
     position: fixed;
