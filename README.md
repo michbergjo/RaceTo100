@@ -1,2 +1,1 @@
-# JsSiteTemplate
-Site Template for JS projects 
+RaceTo100 
